@@ -1,0 +1,26 @@
+Package: clincluster
+Type: Package
+Title: ClusterJ
+Version: 0.1.0
+Author: Ji Wang
+Maintainer: Ji Wang <jwa7@iu.edu>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Imports: 
+    limma,
+    Seurat,
+    matrixStats,
+    stringr,
+    gtools,
+    edgeR,
+    stats
